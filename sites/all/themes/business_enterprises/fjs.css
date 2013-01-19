@@ -1,0 +1,179 @@
+#main {
+	padding-top: 40px;
+}
+
+#header-top {
+
+background-image: linear-gradient(bottom, #01715B 0%, #B9D8D2 74%, #EEEEEE 100%);
+background-image: -o-linear-gradient(bottom, #01715B 0%, #B9D8D2 74%, #EEEEEE 100%);
+background-image: -moz-linear-gradient(bottom, #01715B 0%, #B9D8D2 74%, #EEEEEE 100%);
+background-image: -webkit-linear-gradient(bottom, #01715B 0%, #B9D8D2 74%, #EEEEEE 100%);
+background-image: -ms-linear-gradient(bottom, #01715B 0%, #B9D8D2 74%, #EEEEEE 100%);
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, #01715B),
+	color-stop(0.74, #B9D8D2),
+	color-stop(1, #EEEEEE)
+);
+
+}
+
+.node h2.title, #page-title {
+    color: #01715B;
+    padding: 0 0 0 10;
+}
+
+.node-type-fjs-projects #page-title {
+	padding: 0;
+}
+
+.title-uppercase a {
+color: #5DA597;
+/* font-weight: 700; */
+font-family: 'BebasNeueRegular';
+font-size: 1.25em;
+
+}
+
+.title-uppercase a:hover {
+color: #01715b;
+/* font-weight: bold; */
+/* font-family: 'BebasNeueRegular'; */
+}
+
+#main-menu {
+	margin: 0 300px 0;
+}
+
+#main-menu li a {
+	font-size: 1.2em;
+}
+
+#main-menu li a:hover, #main-menu li a:active, #main-menu .active-trail a, main-menu li a.active,
+.logo .sitename h1 a:hover
+{
+    color: #B9D8D2;
+font-weight: normal;
+}
+
+.front #page-container {
+	margin-top: -60px;
+}
+
+#project_summary {
+	font-size: 1.1em;
+	padding-bottom: 1em;
+/* 	width: 45%; */
+/* font-family: 'Ubuntu Condensed', sans-serif; */
+	color: #747474;
+}
+
+.project_metadata_wrapper {
+/* 	border-radius: 5px; */
+/* 	border-style: solid; */
+/* 	border-color: #EEE; */
+/* 	border-spacing: 15px; */
+/* 	border-width: 1px; */
+/* 	position: relative; */
+/* 	padding: .5em; */
+	float: left;
+	width: 45%;
+}
+
+.project_imagery {
+/* 	width: 55%; */
+	float: left;
+/* 	margin-top: -87px; */
+/* 	padding-right: 15%; */
+}
+
+.project_imagery img {
+	border-radius: 7px;
+	border-style: solid;
+	border-color: green;
+	border-width: 1px;
+}
+
+.project_metadata_wrapper .project_metadata {
+/* 	position: absolute; */
+/* 	left: 100px;	 */
+	background: none;
+
+}
+
+.project_metadata_wrapper .project_metadata_label {
+	margin-left: 10px;
+/* font-weight: 700; */
+font-family: 'BebasNeueRegular';
+	vertical-align: top;
+	background: none;
+	width: 80px;
+	font-size: 1.2em;
+}
+
+.project_metadata_wrapper #project_metadata_table {
+	margin-bottom: 0;
+	background: none;
+	border: none;
+}
+.project_metadata_wrapper #project_metadata_table td {
+	border: none;
+}
+
+.fjs-projects-completed table,
+.fjs-projects-completed table tr,
+.fjs-projects-completed table td,
+.fjs-testimonials table,
+.fjs-testimonials table tr,
+.fjs-testimonials table td {
+	background: none;
+	border: none;
+}
+
+.fjs-projects-completed table td.views-field-field-project-images {
+	padding-left: 0px;
+	padding-top: 3px;
+	padding-bottom: 10px;
+	text-align: right;
+}
+
+.fjs-projects-completed table td.views-field-body {
+	padding-left: 10px;
+}
+
+.fjs-projects-completed p {
+	margin: 0;
+}
+
+.fjs-projects-completed .views-field-field-project-images,
+.fjs-projects-completed .views-field-body {
+	vertical-align: top;
+}
+
+.fjs-testimonials blockquote {
+	text-shadow: none;
+/* 	font-family: "Ubuntu"; */
+/* 	font-size: 400; */
+	background: url("images/quote.png") no-repeat scroll 0 0 #B9D8D2;
+	color: #666;
+}
+
+.fjs-testimonials blockquote .testifier {
+/* 	font-family: "Ubuntu"; */
+/* 	font-size: 700; */
+	font-size: bold;
+	color: #000;
+}
+
+.title-uppercase {
+	text-transform:uppercase;
+/* 	margin-bottom: 15px; */
+}
+
+.nivo-caption a {
+	font-family: 'BebasNeueRegular';
+	font-size: 1.5em;
+	border-bottom: none !important;
+}
