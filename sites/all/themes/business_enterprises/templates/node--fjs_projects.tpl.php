@@ -108,7 +108,7 @@
 	  	<tr><td class="project_metadata_label">LOCATION:</td><td class="project_metadata"><?php print $node->field_project_location_city['und'][0]['value'] . ", " . $node->field_project_location_state['und'][0]['value']; ?></td></tr>
 	  	<tr><td class="project_metadata_label">FUNDS:</td><td class="project_metadata"><?php print render($content['field_project_funds']); ?></td></tr>
 	  	<tr><td class="project_metadata_label">UNITS:</td><td class="project_metadata"><?php print $node->field_project_unit_num['und'][0]['value'] . " " . $node->field_project_unit_type['und'][0]['value']; ?></td></tr>
-	  	<tr><td class="project_metadata_label"><abbr title="Total Development Cost">TDC</abbr>:</td><td class="project_metadata"><?php print "$" . rtrim(rtrim($node->field_project_tdc_num['und'][0]['value'], '0'), '.') . ($node->field_project_tdc_place_value['und'][0]['value'] == "millions" ? "M" : "K") ?></td></tr>
+	  	<tr><td class="project_metadata_label"><abbr title="Total Development Cost">TDC</abbr>:</td><td class="project_metadata"><?php print "$" . rtrim(rtrim($node->field_project_tdc_num['und'][0]['value'], '0'), '.') . ($node->field_project_tdc_place_value['und'][0]['value'] == "millions" ? " million" : " thousand") ?></td></tr>
 	  	<tr><td class="project_metadata_label">COMPLETED:</td><td class="project_metadata"><?php print $node->field_project_completion_month['und'][0]['value'] . " " . $node->field_project_completion_year['und'][0]['value']; ?></td></tr>
 	    </table>
 	</div>
